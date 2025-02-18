@@ -11,7 +11,7 @@
         <input type='number' name='num1' placeholder='Enter first number' required>
         <input type='number' name='num2' placeholder='Enter second number' required>
         <button type='submit'>Submit</button>
-</form>
+</form> 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Store user inputs in variables
